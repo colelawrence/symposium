@@ -1,0 +1,108 @@
+/*  TYPOGRAPHY */
+body {
+  font-family: Raleway, -apple-system, Roboto, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 160%;
+  line-height: 1.65;
+  margin: 0;
+}
+main {
+  display: block;
+  padding: 3.25rem 5vw;
+  margin: 0 auto;
+  max-width: 42rem;
+}
+
+p {
+  margin: 0 auto;
+  padding-bottom: 1.65em;
+  letter-spacing: .02em;
+  text-align: justify;
+}
+
+footer {
+  margin-top: 4rem;
+}
+
+small { font-size: 13px; }
+
+time { font-style: italic; }
+
+h1, h2, h3, h4 {
+  font-family: 'Vesper Libre', serif;
+  margin-bottom: .1em;
+  margin-top: 0.83em;
+}
+
+.site-title {
+  font-family: 'Vesper Libre', serif;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+  font-size: 2em;
+}
+
+body { font-weight: 400; }
+h1 { font-weight: 700; }
+h2, h3 { font-weight: 500; }
+
+pre, code, kbd, tt, samp {
+  font-family: 'Monaco', 'Fira Code', 'Hack', monospace;
+  font-family: inherit;
+}
+p > code {
+  border: .075rem solid rgba(205, 205, 205, 0.039);
+  border-radius: .1rem;
+  background: rgba(230, 229, 229, 0.027);
+}
+
+pre {
+  max-width: 100%;
+  overflow-x: auto;
+  padding: 0;
+  padding-left: 2ch;
+  border-left: .5ch solid rgba(255, 104, 172, 0.164);
+}
+
+img {
+  max-width: 100%;
+  max-height: 90vh;
+  margin: 0 auto;
+  display: block;
+}
+
+ul, ol {
+  padding-left: 2rem;
+}
+ul.task-list {
+  list-style: none;
+}
+
+a, a:visited { color: inherit; text-decoration: inherit; position: relative; }
+a { text-decoration: inherit; border-bottom: 1px solid #78bce9; }
+a[href^="/"]:not([href^="//"]),
+a[href*="colelawrence.com"],
+a[href*="colelawrence.ngrok.io"],
+a[href*="localhost:1313"] {
+  /* Internal weblinks */
+  border-color: #ff006d;
+}
+/* a:hover { border-bottom-style: dashed; } */
+/* a:focus { background: #ffb4ce } */
+
+[id]:hover>a::after,
+[id]:target>a::after {
+  content: '🔗';
+  font-style: normal;
+  padding-left: .5ch;
+}
+h1>a, h2>a, h3>a, h4>a { border: none !important; }
+header h1 a { border: none !important; }
+header h1 {
+  font-family: inherit;
+  margin-top: 2vw;
+  font-weight: 800;
+  font-size: 1em;
+  position: relative;
+  text-transform: uppercase;
+  text-align: center;
+}

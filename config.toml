@@ -1,0 +1,7 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Symposium"
+publishDir = "public"
+theme = "blank"
+PygmentsCodeFences = true
+pygmentsuseclasses = true
